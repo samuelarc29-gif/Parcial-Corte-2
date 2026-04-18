@@ -3,8 +3,8 @@
 Proyecto desarrollado para el parcial práctico de Programación II.
 
 ##  Integrantes
-- Samuel
-- [Tu compañero]
+- Samuel Andres Rengifo Cortes
+
 
 ##  Objetivo
 Implementar un sistema de batalla entre criaturas usando POO.
@@ -30,8 +30,6 @@ Se usó JUnit 5 para validar el comportamiento del sistema.
 ```bash
 cd batalla
 mvn clean test
-
-- [Nombre del compañero]
 
 ---
 
@@ -74,7 +72,7 @@ class Criatura {
     +atacar(Criatura objetivo)
     +defender(int danio)
     +estaViva() boolean
-    +equiparArma(Arma arma)s
+    +equiparArma(Arma arma)
     +desequiparArma()
 }
 
